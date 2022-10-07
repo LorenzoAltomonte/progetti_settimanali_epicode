@@ -1,0 +1,314 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+h2 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+    line-height: 1.1;
+}
+
+h4 {
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+h5 {
+    font-size: 1.8rem;
+    line-height: 1.1;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1.8rem;
+
+}
+
+p {
+    color: black;
+}
+
+button {
+    color: white;
+    font-size: 1.9rem;
+    background: rgb(108, 193, 226);
+    background: linear-gradient(90deg, rgba(108, 193, 226, 1) 0%, rgba(57, 47, 122, 1) 78%);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+i {
+    color: #e42424;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* HEADER */
+header {
+    display: flex;
+    box-shadow: #d3d3d3;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+
+}
+
+#logo {
+    width: 100px;
+    height: 50px;
+    margin-top: 12px;
+}
+
+
+header li {
+    display: inline;
+    list-style: none;
+
+}
+
+/* MAIN */
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+
+}
+
+#info {
+
+    margin-left: -15rem;
+    margin-bottom: 1rem;
+}
+
+
+
+#paragrafo {
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+
+section {
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+section h2 {
+    line-height: 1.1;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.divisore {
+    background-color: #0c0633;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(238, 238, 238);
+}
+
+footer p {
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 1rem;
+
+}
+
+footer li {
+    list-style: none;
+    display: inline-flex
+}
+
+.iconeSocial {
+    text-align: left;
+    margin: 20px 20px 0px 15px;
+}
+
+.iconeSocial li {
+    margin-right: 5px;
+}
+
+#newsLetter h4 {
+    margin-left: 15px;
+    display: block;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#formControl input {
+    width: 85vw;
+    height: 4rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+form button {
+    width: 85vw;
+    height: 4rem;
+}
+
+
+
+/*contatti */
+.h1cont {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#nome,
+#mailcontact {
+    width: 80vw;
+    height: 5vh;
+    font-style: italic;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: 2px solid grey;
+    box-shadow: -4px 0px 17px -12px #000000;
+}
+
+#presentazione {
+    width: 80vw;
+    font-size: 1rem;
+    font-style: italic;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    box-shadow: -4px 0px 17px -12px #000000;
+}
+
+.send {
+    margin-left: 90px;
+    width: 50vw;
+}
+
+.contsede {
+    text-align: center;
+    padding: 12px;
+}
+
+.contsede p {
+    font-size: 0.9em;
+
+}
+
+/*chi siamo */
+.wwa {
+    text-align: center;
+    padding: 30px;
+    font-weight: normal;
+
+}
+
+.wwa h1 {
+    text-shadow: none;
+    font-size: 3rem;
+    margin-top: 30px;
+    color: #000;
+}
+
+.chisiamo p {
+    margin-top: 30px;
+    text-shadow: none;
+    font-size: 1.3rem;
+}
+
+.imgwwa {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.wwacont div:nth-child(2) {
+    margin-right: 50px;
+}
+
+.imgwwa img {
+    width: 400px;
+    height: 260px;
+
+
+}
+
+.tablecont {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.tablecont h2 {
+    font-size: 2rem;
+    margin-top: 25px;
+}
+
+table {
+    width: 90vw;
+    text-align: left;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+th {
+    font-weight: bolder;
+    margin-left: 10px;
+    font-size: 1.2rem;
+
+
+}
+
+thead,
+tfoot {
+    background-color: rgb(151, 179, 190);
+
+}
+
+/* RESPONSIVE */
+@media screen and (min-width:768px) {
+    header {
+        justify-content: space-around;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+ 
+}

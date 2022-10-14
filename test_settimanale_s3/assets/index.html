@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<h1>La mia calcollatrice in JS</h1>
+    <div class="content">
+        <div class="displayContainer">
+            <input type="text" name="display" value="" id="operazioni" readonly="readonly" class="display">
+        </div>
+        <div>
+            <input type="button" id="C" value="C" onclick="elimina()" class="pulsanteFunzione">
+            <input type="button" id="◄" value="◄" onclick="cancella()" class="pulsanteFunzione">
+            <input type="button" value="?" onclick="troll()" class="pulsanteTroll">
+            <input type="button" id="/" value="/" onclick="tasto(this.id)" class="pulsanteFunzione">
+        </div>
+        <div>
+            <input type="button" id="7" value="7" onclick="tasto(this.id)" class="pulsante">
+            <input type="button" id="8" value="8" onclick="tasto(this.id)" class="pulsante">
+            <input type="button" id="9" value="9" onclick="tasto(this.id)" class="pulsante">
+            <input type="button" id="*" value="X" onclick="tasto(this.id)" class="pulsanteFunzione">
+
+        </div>
+        <div>
+            <input type="button" id="4" value="4" onclick="tasto(this.id)" class="pulsante">
+            <input type="button" id="5" value="5" onclick="tasto(this.id)" class="pulsante">
+            <input type="button" id="6" value="6" onclick="tasto(this.id)" class="pulsante">
+            <input type="button" id="-" value="-" onclick="tasto(this.id)" class="pulsanteFunzione">
+        </div>
+        <div>
+            <input type="button" id="1" value="1" onclick="tasto(this.id)" class="pulsante">
+            <input type="button" id="2" value="2" onclick="tasto(this.id)" class="pulsante">
+            <input type="button" id="3" value="3" onclick="tasto(this.id)" class="pulsante">
+            <input type="button" id="+" value="+" onclick="tasto(this.id)" class="pulsanteFunzione">
+        </div>
+        <div>
+            <button id="T" onclick="dark()" class="pulsante"><i class="fa-solid fa-moon"></i></i></button>
+            <input type="button" id="0" value="0" onclick="tasto(this.id)" class="pulsante">
+            <button type="button" id="."onclick="tasto(this.id)" class="pulsante"><i class="fa-solid fa-circle fa-2xs"></i></button>
+            <input type="button" id="=" value="=" onclick="risultato()" class="result">
+        </div>
+    </div>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
